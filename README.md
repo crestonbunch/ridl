@@ -90,3 +90,7 @@ A handful of next steps are:
 - Re-export wasm-bindgen and pyo3 primitives so that downstream consumers
   don't need to know which tools to `cargo add`.
 - Add support for more languages, and test with more complex APIs.
+
+RPC support is a longer-term goal that would be possible with Rust bindings
+in multiple languages. Something like [ZMQ](https://zeromq.org) could
+minimize the effort to building a custom protocol.
