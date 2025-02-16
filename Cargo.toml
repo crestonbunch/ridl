@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["ridl", "ridl-derive", "ridl-impl", "example/rust-idl"]
