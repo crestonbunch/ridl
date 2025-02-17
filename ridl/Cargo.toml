@@ -1,5 +1,7 @@
 [package]
 name = "ridl-proto"
+description = "Use Rust as an IDL for Python, JavaScript, and more."
+license = "MIT"
 version = "0.0.1"
 edition = "2021"
 

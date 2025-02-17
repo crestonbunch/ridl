@@ -1,5 +1,7 @@
 [package]
 name = "ridl-impl"
+description = "Implementation internals of the ridl-proto crate."
+license = "MIT"
 version = "0.0.1"
 edition = "2021"
 
