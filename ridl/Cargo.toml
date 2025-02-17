@@ -9,8 +9,8 @@ pyo3 = { version = "0.23.4", features = [
     "abi3-py38",
     "serde",
 ], optional = true }
-ridl-derive = { path = "../ridl-derive" }
-ridl-impl = { path = "../ridl-impl" }
+ridl-derive = { path = "../ridl-derive", version = "0.0.1" }
+ridl-impl = { path = "../ridl-impl", version = "0.0.1" }
 wasm-bindgen = { version = "0.2.100", optional = true }
 
 [features]

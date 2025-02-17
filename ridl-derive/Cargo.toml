@@ -14,7 +14,7 @@ quote = "1.0.38"
 serde = { version = "1.0.217", features = ["derive"] }
 syn = "2.0.98"
 proc-macro2 = "1.0.93"
-ridl-impl = { path = "../ridl-impl" }
+ridl-impl = { path = "../ridl-impl", version = "0.0.1" }
 inventory = "0.3.19"
 wasm-bindgen = { version = "0.2.100", optional = true }
 serde_json = { version = "1.0.138", optional = true }
