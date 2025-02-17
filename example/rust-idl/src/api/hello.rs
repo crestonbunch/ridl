@@ -1,3 +1,5 @@
+use ridl_proto as ridl;
+
 #[cfg_attr(feature = "py", ridl::popo("hello"))]
 #[cfg_attr(feature = "wasm", ridl::pojso)]
 #[derive(Debug)]

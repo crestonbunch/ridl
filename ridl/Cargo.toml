@@ -1,5 +1,5 @@
 [package]
-name = "ridl"
+name = "ridl-proto"
 version = "0.0.1"
 edition = "2021"
 

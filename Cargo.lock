@@ -196,20 +196,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ridl"
-version = "0.0.1"
-dependencies = [
- "inventory",
- "pyo3",
- "ridl-derive",
- "ridl-impl",
- "rmp-serde",
- "serde",
- "serde_json",
- "wasm-bindgen",
-]
-
-[[package]]
 name = "ridl-derive"
 version = "0.0.1"
 dependencies = [
@@ -232,6 +218,20 @@ version = "0.0.1"
 dependencies = [
  "inventory",
  "pyo3",
+]
+
+[[package]]
+name = "ridl-proto"
+version = "0.0.1"
+dependencies = [
+ "inventory",
+ "pyo3",
+ "ridl-derive",
+ "ridl-impl",
+ "rmp-serde",
+ "serde",
+ "serde_json",
+ "wasm-bindgen",
 ]
 
 [[package]]
@@ -262,7 +262,7 @@ version = "0.1.0"
 dependencies = [
  "inventory",
  "pyo3",
- "ridl",
+ "ridl-proto",
  "rmp-serde",
  "serde",
  "serde_json",
